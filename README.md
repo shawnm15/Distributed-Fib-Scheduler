@@ -1,6 +1,21 @@
-# Distributed-Fib-Scheduler
+# Fib
 
-A server that computes Fibonacci numbers. Server waits for a message from the user before it begins the computation of the fib number. The Scheduler module allows us to automate the computation of a list of numbers that we would like the fibonnaci numbers of.
+**TODO: Add description**
 
-To run the program, nvaigate to the folder with the mix.exs file.
-Then run the command "iex -S mix" from the terminal
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `fib` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:fib, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at [https://hexdocs.pm/fib](https://hexdocs.pm/fib).
+
